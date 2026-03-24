@@ -13,9 +13,6 @@ The MazeGenerator repository contains algorithms to generate and solve mazes. It
 - **Description**: Treats the maze as a graph, where the cells are nodes and the walls are edges. It randomly selects walls and connects them to the maze until all cells are included.
 - **Complexity**: O(E log V), where E is the number of edges and V is the number of vertices.
 
-### 3. Kruskal's Algorithm
-- **Description**: Adds walls to the maze in a random manner, ensuring no cycles are formed until all walls are added, creating a perfect maze.
-- **Complexity**: O(E log E)
 
 ## Maze Solving Algorithms
 
@@ -26,10 +23,6 @@ The MazeGenerator repository contains algorithms to generate and solve mazes. It
 ### 2. Breadth-First Search
 - **Description**: Explores all possible paths level by level. It guarantees the shortest path, if one exists.
 - **Complexity**: O(N)
-
-### 3. A* Search Algorithm
-- **Description**: An informed search algorithm that uses a heuristic to estimate the distance to the goal, optimizing the search process.
-- **Complexity**: O(E)
 
 
 ## Conclusion
