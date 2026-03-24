@@ -31,25 +31,6 @@ The MazeGenerator repository contains algorithms to generate and solve mazes. It
 - **Description**: An informed search algorithm that uses a heuristic to estimate the distance to the goal, optimizing the search process.
 - **Complexity**: O(E)
 
-## Usage
-To use the maze generation and solving algorithms:
-1. Clone the repository.
-   ```bash
-   git clone https://github.com/VagrantAtrisan/MazeGenerator.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd MazeGenerator
-   ```
-3. Run the maze generation script or solver.
-
-## Example
-Here is a simple example of how to generate a maze:
-```python
-from maze_generator import generate_maze
-maze = generate_maze(width=20, height=20)
-print(maze)
-```
 
 ## Conclusion
 The MazeGenerator repository provides a robust way to experiment with maze generation and solving techniques. Explore the various algorithms to see the differences in maze structure and solution paths!  
